@@ -1,0 +1,123 @@
+{
+  "_from": "mediasoup-client@^3.6.25",
+  "_id": "mediasoup-client@3.6.25",
+  "_inBundle": false,
+  "_integrity": "sha512-nU/IEciMil3idmK2PwbQ5+9CDpug8uXNoY8Zl2TIEHUpExJ/E/jBKWZ/y1hQC8gf3XPwEb90Sj2I1XosufST1Q==",
+  "_location": "/mediasoup-client",
+  "_phantomChildren": {
+    "ms": "2.1.2"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "mediasoup-client@^3.6.25",
+    "name": "mediasoup-client",
+    "escapedName": "mediasoup-client",
+    "rawSpec": "^3.6.25",
+    "saveSpec": null,
+    "fetchSpec": "^3.6.25"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mediasoup-client/-/mediasoup-client-3.6.25.tgz",
+  "_shasum": "2c8c71db2b4b1824cface681063cd8e239ce2b0a",
+  "_spec": "mediasoup-client@^3.6.25",
+  "_where": "C:\\conan\\mediasoup-demo\\angular-9-seed-app",
+  "bugs": {
+    "url": "https://github.com/versatica/mediasoup-client/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Iñaki Baz Castillo",
+      "email": "ibc@aliax.net",
+      "url": "https://inakibaz.me"
+    },
+    {
+      "name": "José Luis Millán",
+      "email": "jmillan@aliax.net",
+      "url": "https://github.com/jmillan"
+    }
+  ],
+  "dependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/events": "^3.0.0",
+    "awaitqueue": "^2.3.3",
+    "babel-preset-env": "^1.7.0",
+    "bowser": "^2.11.0",
+    "debug": "^4.3.1",
+    "events": "^3.2.0",
+    "h264-profile-level-id": "^1.0.1",
+    "sdp-transform": "^2.14.1",
+    "supports-color": "^8.1.0",
+    "uglifyjs": "^2.4.11"
+  },
+  "deprecated": false,
+  "description": "mediasoup client side JavaScript library",
+  "devDependencies": {
+    "@types/sdp-transform": "^2.4.4",
+    "@types/uuid": "^3.4.9",
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^7.16.0",
+    "eslint-plugin-jest": "^24.1.3",
+    "fake-mediastreamtrack": "^1.1.6",
+    "jest": "^26.6.3",
+    "jest-tobetype": "^1.2.3",
+    "jshint": "^2.12.0",
+    "jshint-loader": "^0.8.4",
+    "node-libs-browser": "^2.2.1",
+    "open-cli": "^6.0.1",
+    "tsc-watch": "^4.2.9",
+    "typescript": "~3.7.5",
+    "uuid": "^3.4.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/mediasoup"
+  },
+  "homepage": "https://mediasoup.org",
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "testRegex": "test/test.*\\.js"
+  },
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "mediasoup-client",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/versatica/mediasoup-client.git"
+  },
+  "scripts": {
+    "coverage": "node npm-scripts.js coverage",
+    "lint": "node npm-scripts.js lint",
+    "test": "node npm-scripts.js test",
+    "typescript:build": "node npm-scripts.js typescript:build",
+    "typescript:watch": "node npm-scripts.js typescript:watch",
+    "bundle-script": "webpack",
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  },
+  "types": "lib/index.d.ts",
+  "version": "3.6.25",
+  "__processed_by_ivy_ngcc__": {
+    "fesm2015": "9.0.0-next.4",
+    "fesm5": "9.0.0-next.4",
+    "es2015": "9.0.0-next.4",
+    "esm2015": "9.0.0-next.4",
+    "esm5": "9.0.0-next.4",
+    "main": "9.0.0-next.4",
+    "module": "9.0.0-next.4"
+  }
+}
