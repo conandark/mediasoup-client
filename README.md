@@ -1,3 +1,12 @@
+# bundle purpose
+```
+
+npm i
+npm run typescript:build
+npm run bundle-script
+```
+bundled to mediasoup.js
+
 # mediasoup-client v3
 
 [![][npm-shield-mediasoup-client]][npm-mediasoup-client]
